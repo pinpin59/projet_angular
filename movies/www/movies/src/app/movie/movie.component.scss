@@ -1,0 +1,21 @@
+/* styles.css */
+.custom-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour assombrir l'arrière-plan */
+    z-index: 9999; /* Pour afficher la modal par-dessus le contenu */
+  }
+  
+  .modal-content-custom {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
